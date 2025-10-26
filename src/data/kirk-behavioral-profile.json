@@ -1,0 +1,184 @@
+{
+  "attorney": {
+    "name": "Kirk Kolodji",
+    "firm": "Kirk Kolodji Law",
+    "communicationStyle": "Aggressive, fee-focused, conditional cooperation",
+    "overallThreatLevel": "HIGH"
+  },
+  "feeDemandPattern": [
+    {
+      "date": "2025-10-21",
+      "amount": 6000,
+      "context": "Initial fee demand",
+      "escalationFactor": 1.0
+    },
+    {
+      "date": "2025-10-25",
+      "amount": 14473.64,
+      "context": "FC §271 Notice - escalated demand for work through 10/15/2025",
+      "escalationFactor": 2.41,
+      "additionalThreats": ["Additional fees for corrective filings", "Additional fees for supplemental motion response"]
+    }
+  ],
+  "tacticalPatterns": [
+    "Conditional cooperation - only meets if Gilbert Quiñones present",
+    "Uses filings as payment leverage",
+    "Escalates fee demands with each interaction",
+    "Repeatedly threatens to strike DCFS information",
+    "Limited availability (Monday afternoon only)",
+    "Evidence Code §1152 confidentiality framework for all negotiations",
+    "Uses procedural complexity as fee multiplier",
+    "Every response generates billable hours",
+    "Creates obstacles to meet & confer to delay resolution"
+  ],
+  "communicationTimeline": [
+    {
+      "date": "2025-10-21",
+      "type": "email",
+      "tone": "aggressive",
+      "subject": "Direct contact with distressed client",
+      "ethicsConcern": "Potential client communication violation",
+      "severity": "moderate"
+    },
+    {
+      "date": "2025-10-25",
+      "type": "email",
+      "tone": "highly aggressive",
+      "subject": "Meet & confer rejection + $14,473.64 demand",
+      "ethicsConcern": "Financial coercion, conditional cooperation",
+      "severity": "moderate",
+      "keyThreats": [
+        "Strike DCFS information from Freddy's supplemental filing",
+        "Accuse Freddy of discussing case with minors (Mia & Jordan)",
+        "Demand $14,473.64 through 10/15/2025",
+        "Additional fees to prepare DV160, DV165, DV170, DV175",
+        "Conditional meet & confer only if Gilbert Quiñones available"
+      ]
+    }
+  ],
+  "predictedResponses": {
+    "ifSettlementOffered": {
+      "likelihood": "HIGH",
+      "response": "Will likely demand substantial concessions on both fees and support",
+      "leverage": "Already won on merits (case dismissed), can afford to be aggressive"
+    },
+    "ifMotionToCompel": {
+      "likelihood": "HIGH",
+      "response": "Will counter with additional fee demands and procedural objections",
+      "leverage": "Each filing generates more billable hours"
+    },
+    "ifFeeReduction": {
+      "likelihood": "MEDIUM",
+      "response": "Will argue work was necessary due to opposing party's conduct, cite FC §271 notice",
+      "leverage": "Has procedural basis for fee demand"
+    },
+    "ifDCFSCorrected": {
+      "likelihood": "MEDIUM",
+      "response": "May soften on fees if withdrawal shows good faith",
+      "leverage": "Removes his strongest argument for sanctions"
+    }
+  },
+  "counterstrategies": {
+    "feeDefense": {
+      "approach": "Document good faith cooperation efforts, show Kirk's conditional obstruction",
+      "evidence": ["Limited availability", "Quiñones requirement", "Conditional cooperation"],
+      "goal": "Undermine FC §271 claim by showing Kirk's unreasonableness"
+    },
+    "settlementApproach": {
+      "approach": "Lead with professionalism, extract concessions for each one given",
+      "tactics": [
+        "Acknowledge Kirk's concerns about DCFS",
+        "Offer to correct any improper filings",
+        "Show willingness to cooperate",
+        "Focus on resolution: 'minimize expense and protect children'",
+        "For each concession made, seek one in return"
+      ],
+      "goal": "Contain fee exposure while achieving reasonable settlement"
+    },
+    "communicationStrategy": {
+      "approach": "Always copy Gilbert Quiñones, maintain §1152 confidentiality framework",
+      "tactics": [
+        "Professional tone in all communications",
+        "Document everything for potential fee defense",
+        "Preserve record of Kirk's unreasonableness",
+        "Use §1152 protection but memorialize stipulations in writing"
+      ],
+      "goal": "Build defense against fee claims while negotiating settlement"
+    }
+  },
+  "ethicsViolationTracker": [
+    {
+      "date": "2025-10-21",
+      "incident": "Direct contact with distressed client",
+      "description": "Kirk contacted client directly despite representation",
+      "severity": "moderate",
+      "documented": true,
+      "potentialBarComplaint": true
+    },
+    {
+      "date": "2025-10-25",
+      "incident": "Using filings as payment leverage",
+      "description": "Threatened corrective filings unless fees paid",
+      "severity": "moderate",
+      "documented": true,
+      "potentialBarComplaint": false
+    },
+    {
+      "date": "2025-10-25",
+      "incident": "Financial coercion tactics",
+      "description": "Escalating fee demands with each interaction to pressure settlement",
+      "severity": "low-moderate",
+      "documented": true,
+      "potentialBarComplaint": false
+    }
+  ],
+  "negotiationLeverage": {
+    "kirkStrengths": [
+      "Already won at trial court (case dismissed)",
+      "Strong procedural basis for fee demand (FC §271 notice)",
+      "DCFS confidentiality violations in opposing party's filing",
+      "Professional conduct concerns (minor contact allegations)",
+      "Can afford to be aggressive from position of victory"
+    ],
+    "kirkWeaknesses": [
+      "Conditional cooperation creates obstruction evidence",
+      "Fee escalation pattern may show unreasonableness",
+      "Ethics concerns (direct client contact) create vulnerability",
+      "Limited availability undermines good faith claim",
+      "May overreach on fee demands and lose court sympathy"
+    ],
+    "optimalApproach": "Targeted settlement (Option C) - offer limited concessions in exchange for fee waiver/reduction and Kirk's cooperation"
+  },
+  "sentimentAnalysis": {
+    "toneProgression": [
+      {
+        "period": "Pre-10/21",
+        "tone": "professional",
+        "cooperationLevel": "moderate"
+      },
+      {
+        "period": "10/21",
+        "tone": "aggressive",
+        "cooperationLevel": "low"
+      },
+      {
+        "period": "10/25",
+        "tone": "highly aggressive",
+        "cooperationLevel": "conditional only"
+      }
+    ],
+    "escalationTriggers": [
+      "Each new filing by Freddy",
+      "Supplemental motion for reconsideration",
+      "DCFS information inclusion",
+      "Perceived lack of cooperation"
+    ],
+    "deescalationOpportunities": [
+      "Withdraw problematic DCFS references",
+      "Offer reasonable support stipulations",
+      "Include Gilbert Quiñones in all discussions",
+      "Demonstrate good faith cooperation",
+      "Use §1152 confidential settlement framework"
+    ]
+  }
+}

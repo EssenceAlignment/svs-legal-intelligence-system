@@ -1,0 +1,212 @@
+{
+  "caseInfo": {
+    "caseNumber": "25PDRO01260",
+    "caseName": "Sayegh v. Sayegh",
+    "court": "Los Angeles County Superior Court",
+    "department": "L",
+    "caseType": "DVRO - Domestic Violence Restraining Order",
+    "filingDate": "2025-01-15",
+    "currentStatus": "Dismissed (2025-10-15) - Motion for Reconsideration pending",
+    "client": {
+      "name": "Nuha Sayegh",
+      "role": "Petitioner",
+      "email": "nuha.sayegh@example.com"
+    },
+    "opposingParty": {
+      "name": "Freddy Sayegh",
+      "role": "Respondent",
+      "representation": "Pro Per"
+    },
+    "opposingCounsel": {
+      "name": "Kirk Kolodji",
+      "firm": "Kirk Kolodji Law",
+      "email": "kirk@kolodjilaw.com"
+    },
+    "coCounsel": {
+      "name": "Gilbert Quiñones",
+      "specialization": "Support/Financial"
+    },
+    "caseManager": {
+      "name": "Eric Jones",
+      "email": "ericbrakebilljones@gmail.com",
+      "role": "Case Manager & Financial Advocate"
+    }
+  },
+  "criticalDeadlines": [
+    {
+      "id": "1",
+      "date": "2025-10-27",
+      "time": "10:00 AM",
+      "title": "Gilbert Quiñones Coordination Call",
+      "priority": "CRITICAL",
+      "status": "pending",
+      "alertSchedule": ["T-24hr", "T-12hr", "T-2hr"],
+      "notes": "Confirm meet & confer availability with Kirk Kolodji. Review support calculations and settlement authority parameters."
+    },
+    {
+      "id": "2",
+      "date": "2025-10-27",
+      "time": "Afternoon TBD",
+      "title": "Meet & Confer with Kirk Kolodji",
+      "priority": "CRITICAL",
+      "status": "conditional",
+      "alertSchedule": ["T-24hr", "T-12hr", "T-4hr", "T-1hr"],
+      "notes": "Motion for Reconsideration, §217 Hearing, HIPAA/DCFS Issues. CONDITIONAL on Gilbert Quiñones availability by phone. Evidence Code §1152 confidential settlement context."
+    },
+    {
+      "id": "3",
+      "date": "2025-10-27",
+      "time": "5:00 PM",
+      "title": "Exhibit Exchange Deadline (Freddy's Exhibits 1-4)",
+      "priority": "CRITICAL",
+      "status": "pending",
+      "alertSchedule": ["T-24hr", "T-12hr", "T-4hr"],
+      "notes": "Email, messenger, or mail delivery to Kirk Kolodji. Ensure proper authentication foundation prepared."
+    },
+    {
+      "id": "4",
+      "date": "2025-10-28",
+      "time": "5:00 PM",
+      "title": "Reply to FC §271 Notice",
+      "priority": "HIGH",
+      "status": "pending",
+      "alertSchedule": ["T-48hr", "T-24hr", "T-12hr"],
+      "notes": "Attorney fees defense ($14,473.64 demand). Document good faith cooperation efforts and Kirk's conditional obstruction pattern."
+    },
+    {
+      "id": "5",
+      "date": "2025-10-31",
+      "time": "5:00 PM",
+      "title": "Motion for Reconsideration Strategy Decision",
+      "priority": "HIGH",
+      "status": "pending",
+      "alertSchedule": ["T-72hr", "T-48hr", "T-24hr"],
+      "notes": "Decision point: Proceed with supplemental filing (corrected) / Withdraw (strategic retreat) / Pivot to appeal. Consider $20K-30K+ fee exposure if proceeding."
+    }
+  ],
+  "financialTracking": {
+    "attorneyFeeExposure": 14473.64,
+    "feeType": "Family Code §271 Sanctions Demand",
+    "feeDemandDate": "2025-10-25",
+    "potentialTotalExposure": 30000,
+    "feeEscalationPattern": [
+      {
+        "date": "2025-10-21",
+        "amount": 6000,
+        "context": "Initial fee demand"
+      },
+      {
+        "date": "2025-10-25",
+        "amount": 14473.64,
+        "context": "FC §271 Notice - escalated demand for work through 10/15/2025"
+      }
+    ],
+    "supportCalculations": {
+      "status": "in-progress",
+      "specialist": "Gilbert Quiñones",
+      "dueDate": "2025-10-27",
+      "calculatorUsed": "DissoMaster"
+    }
+  },
+  "evidence": {
+    "kirkExhibits": {
+      "received": ["H", "I-1", "I-2", "I-3", "I-4"],
+      "description": "Exhibits from opposing counsel Kirk Kolodji",
+      "receivedDate": "2025-10-25"
+    },
+    "freddyExhibits": {
+      "pending": ["1", "2", "3", "4"],
+      "dueDate": "2025-10-27",
+      "deliveryMethod": "Email/messenger/mail",
+      "status": "preparation"
+    },
+    "dcfsDocuments": [
+      {
+        "type": "Social Worker Interview",
+        "date": "2025-10-16",
+        "interviewer": "Tyler Polk",
+        "confidentiality": "WIC §827 protected",
+        "complianceStatus": "under-review"
+      }
+    ],
+    "medicalRecords": [
+      {
+        "date": "2023-11-04",
+        "description": "Lip injury photos",
+        "relevance": "Central to DV allegations",
+        "cosmeticProcedures": "Possible lip enhancement/filler within 7 days"
+      }
+    ],
+    "communications": [
+      {
+        "date": "2025-06-08",
+        "type": "Message thread",
+        "source": "Minor's phone",
+        "confidentiality": "Protected - minor statement",
+        "authenticationStatus": "pending-stipulation"
+      }
+    ]
+  },
+  "strategicContext": {
+    "caseStatus": "Dismissed October 15, 2025 - Court denied restraining order, dissolved temporary order",
+    "reconsiderationFiled": true,
+    "reconsiderationMerit": "Low odds after dismissal",
+    "settlementNegotiations": "ongoing",
+    "dcfsComplianceRisk": "HIGH - potential WIC §827 violations in supplemental filing",
+    "minorContactAllegation": "Kirk accuses Freddy of discussing case with Mia & Jordan",
+    "riskLevel": "HIGH",
+    "riskFactors": [
+      "Attorney fee exposure $20K-30K+",
+      "DCFS confidentiality compliance concerns",
+      "Professional conduct allegation (minor contact)",
+      "Low reconsideration success probability",
+      "Kirk's aggressive fee accumulation strategy"
+    ],
+    "strategicOptions": [
+      {
+        "option": "A - Aggressive: Fight on All Fronts",
+        "recommendation": "NOT RECOMMENDED",
+        "reason": "Too much risk for low reward. Case already dismissed."
+      },
+      {
+        "option": "B - Strategic Retreat: Cut Losses",
+        "recommendation": "STRONG CONSIDERATION",
+        "reason": "Pragmatic if case truly dismissed. Avoids $20K+ fee exposure."
+      },
+      {
+        "option": "C - Targeted Settlement: Strategic Compromise",
+        "recommendation": "RECOMMENDED",
+        "reason": "Best balance of risk/reward. Contains fee exposure while maintaining professional relationship."
+      },
+      {
+        "option": "D - Pivot to Appeal: Bypass Reconsideration",
+        "recommendation": "ONLY IF MERIT EXISTS",
+        "reason": "Requires appellate specialist review. Expensive and time-consuming."
+      }
+    ]
+  },
+  "keyPlayers": {
+    "client": {
+      "name": "Nuha Sayegh",
+      "concerns": ["DV dismissal", "Fee exposure", "DCFS confidentiality"],
+      "priority": "Vindication vs. pragmatic resolution decision needed"
+    },
+    "opposingParty": {
+      "name": "Freddy Sayegh",
+      "representation": "Pro Per",
+      "strategy": "Motion for Reconsideration filing",
+      "vulnerabilities": ["DCFS information handling", "Minor contact allegations", "Limited legal expertise"]
+    },
+    "opposingCounsel": {
+      "name": "Kirk Kolodji",
+      "tactics": ["Aggressive fee demands", "Conditional cooperation", "DCFS violation threats", "Evidence Code §1152 framework"],
+      "communicationPattern": "Escalating aggression",
+      "ethicsConcerns": ["Direct client contact 10/21", "Financial coercion", "Using filings as payment leverage"]
+    },
+    "coCounsel": {
+      "name": "Gilbert Quiñones",
+      "role": "Support/Financial Specialist",
+      "criticality": "Required for meet & confer participation per Kirk's demands"
+    }
+  }
+}
